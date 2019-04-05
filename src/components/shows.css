@@ -1,0 +1,56 @@
+.shows {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    height: auto;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.shows {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 0 10vw; */
+}
+
+.show {
+    /* border: 1px solid rgba(0,0,0,0.4); */
+    flex: 30%;
+    margin: 1vw 1vw;
+    /* background-color: rgba(0,0,0,0.4); */
+    font-size: 90%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-shadow: 0 1px 1px black;
+    color: white;
+}
+
+.poster {
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.4);
+}
+
+.show p {
+    padding: 0;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .show {
+        flex: 25%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .show {
+        flex: 50%;
+        max-width: 50vw;
+    }
+}

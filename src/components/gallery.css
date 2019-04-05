@@ -1,0 +1,52 @@
+.pics {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10vw;
+}
+
+.pic {
+    flex: 30%;
+    margin: 5px;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.4);
+  }
+
+.tall {
+  flex: 25%;
+}
+
+.wide {
+  flex: 45%;
+  max-width: 50vw;
+}
+
+.square {
+  flex: 30%;
+  max-width: 40vw;
+}
+
+.img_container {
+    border-radius: 5px;   
+}
+
+.loadButton {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  margin: 10px;
+  font-size: 70%;
+  margin: 20px;
+  letter-spacing: 1px;
+  /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
+  box-shadow: 0px 15px 10px -10px rgba(0,0,0,0.4);
+}
